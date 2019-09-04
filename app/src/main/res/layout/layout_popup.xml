@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEBEBE"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stufe"
+        android:text="Klasse/Stufe:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligeStufe"
+        android:layout_below="@+id/toolBar"
+        android:layout_toEndOf="@+id/stufe"
+        android:gravity="center"
+        android:text="VK1"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stunde"
+        android:layout_below="@+id/stufe"
+        android:layout_marginTop="25sp"
+        android:text="Stunde(n):"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligeStunde"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_below="@+id/jeweiligeStufe"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:text="1-2"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fach"
+        android:layout_below="@+id/stunde"
+        android:layout_marginTop="20sp"
+        android:text="Fach:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligesFach"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_below="@id/jeweiligeStunde"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Ekbi"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schülergruppe"
+        android:layout_below="@+id/fach"
+        android:layout_marginTop="20sp"
+        android:text="Schülergruppe:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligeSchülergruppe"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_below="@id/jeweiligesFach"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Q1GE2"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/raum"
+        android:layout_below="@+id/schülergruppe"
+        android:layout_marginTop="20sp"
+        android:text="Raum:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligerRaum"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/jeweiligeSchülergruppe"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="609"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/art"
+        android:layout_below="@+id/raum"
+        android:layout_marginTop="20sp"
+        android:text="Art:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligeArt"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/jeweiligerRaum"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Entfall(EVA)"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertreter"
+        android:layout_below="@+id/art"
+        android:layout_marginTop="20sp"
+        android:text="Vertreter:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligeVertreter"
+        android:layout_toEndOf="@+id/stufe"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/jeweiligeArt"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Mi"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertretungsText"
+        android:layout_below="@+id/vertreter"
+        android:layout_marginTop="20sp"
+        android:text="Vertretungstext:"
+        android:textSize="23sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jeweiligerVertretungstext"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/vertretungsText"
+        android:layout_marginTop="5sp"
+        android:text="Mathematik"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        />
+
+
+</RelativeLayout>

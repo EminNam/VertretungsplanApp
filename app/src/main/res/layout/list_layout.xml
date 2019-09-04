@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stufe"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_below="@+id/trennlinie"
+        android:text="VK1"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fach"
+        android:layout_below="@+id/trennlinie"
+        android:layout_toRightOf="@+id/stufe"
+        android:gravity="center"
+        android:text="1-2 M Q1PA1"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/art"
+        android:layout_toRightOf="@+id/stufe"
+        android:layout_below="@+id/fach"
+        android:gravity="center"
+        android:text="Entfall(EVA)"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+
+</RelativeLayout>
